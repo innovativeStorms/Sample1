@@ -1,0 +1,85 @@
+body{
+	padding: 10px;
+	margin: 10px;
+	font-size: medium;
+}
+
+header{
+	padding: 5px 5px 40px 5px;
+	background-color: #B3B3B3;
+	text-transform: uppercase;
+	text-align: center;
+	background-image: url("../images/flywheel.jpg");
+	margin-bottom: -30px;
+
+}
+
+h1{
+	color: #FFFFFFFF;
+}
+
+
+nav a{
+	padding: 0px 0px 0px 0px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: capitalize;
+	background-color: rgb(255,255,255, 0.2);
+	margin-left:3%;		
+	color: rgb(0, 0, 0);
+  	text-align: center;
+  	padding-top:15px;
+  	padding-bottom: 15px;   
+	width: 150px;
+	border-radius: 7px;
+	font-weight: bold;
+}
+
+nav a:hover{
+	background-color: rgb(128, 128, 128);
+}
+
+nav a:focus{
+	background-color: rgb(128, 128, 128);
+}
+
+nav a:active{
+	border: 300% solid #000000;	
+}
+
+.active{
+	background-color: rgb(255, 255, 255);
+
+}
+
+.left{
+	display: inline-block;
+	background-color: rgb(165, 155, 68);
+	width: 22%;	
+	height: 100vh;
+	float: left;
+
+}
+
+.left a{
+	display: block;
+}
+
+.left a img{
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left:9%; 
+
+}
+
+.right{
+	margin: 30px;
+	margin-left: 23%;
+	padding-top: 5px;
+	font-size: large;
+	width: 78%;
+	height: auto;
+}
